@@ -1,12 +1,12 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const ProjectList = () => {
-
+  const navigate = useNavigate();
   const projects = ['000-0-001'];
 
   const handleProjectClick = (title) => {
     console.log('Selected Project:', title);
-
+    navigate(`/datasets`);
   };
 
   return (

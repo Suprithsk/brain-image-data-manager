@@ -4,12 +4,14 @@ import ProjectList from "./components/ProjectList"
 import HomePage from "./pages/HomePage"
 import DatasetDetails from "./pages/DatasetDetails"
 import Files from "./pages/Files"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   
   return (
     <main className="min-h-screen bg-gray-100 font-display">
       <Header />
+      <Analytics />
       <Routes>
         <Route path="/" element={<ProjectList />} />
         <Route path='/datasets' element={<HomePage />} />

@@ -74,7 +74,7 @@ src/
 
 The app connects to a server to get data. The server address is set in the `.env` file:
 ```
-VITE_API_BASE_URL=https://gqgrf37lx0.execute-api.us-east-1.amazonaws.com
+VITE_API_BASE_URL='BACKEND_URL_HERE'
 ```
 
 ## Need Help?

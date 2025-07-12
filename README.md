@@ -95,4 +95,4 @@ If you're new to web development, here are some helpful resources:
 
 ---
 
-For questions or issues, please create an issue on GitHub or contact the development team.
+For questions or issues, please contact me at [suprithsk2001@gmail.com](mailto:suprithsk2001@gmail.com)

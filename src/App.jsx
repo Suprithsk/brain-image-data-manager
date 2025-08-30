@@ -10,8 +10,8 @@ function App() {
   
   return (
     <main className="min-h-screen bg-gray-100 font-display">
-      <Header />
       <Analytics />
+      <Header />
       <Routes>
         <Route path="/" element={<ProjectList />} />
         <Route path='/datasets' element={<HomePage />} />
